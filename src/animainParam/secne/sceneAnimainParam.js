@@ -1,0 +1,53 @@
+let sceneAnimainParam = {
+    scale:{
+        isLock:false,
+        anValue:0,
+        start:0,
+        begin:0.01,
+        end:4,
+        during:50,
+    },
+    vecY:{
+        isLock:false,
+        anValue:0,
+        start:0,
+        begin:1,
+        end:480,
+        during:50,
+    },
+    count:{
+        isLock:false,
+        anValue:0,
+        start:0,
+        begin:1,
+        end:580,
+        during:200,
+    },
+    overVecY:{
+        isLock:false,
+        anValue:0,
+        start:0,
+        begin:1,
+        end:680,
+        during:50,
+    },
+    overScale:{
+        isLock:false,
+        anValue:0,
+        start:0,
+        begin:0.01,
+        end:4,
+        during:50,
+    },
+    overBtnScale:{
+        isLock:false,
+        anValue:0,
+        start:0,
+        begin:0.1,
+        end:1,
+        during:50,
+    }
+
+}
+
+export default sceneAnimainParam;

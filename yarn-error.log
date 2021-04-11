@@ -1,0 +1,36 @@
+Arguments: 
+  D:\SF\nodejs\node.exe C:\Users\82017\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js init
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\SF\JDK8\bin;D:\SF\maven\apache-maven-3.6.3\bin;%MING_HOME%\lib;%MING_HOME%\include;D:\SF\nodejs\;D:\SF\Git\cmd;D:\SF\qt\5.9.8\msvc2015_64\bin;D:\SF\qt\Tools\QtCreator;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;D:\SF\xshell\;E:\SF\sdk;E:\SF\sdk\platform-tools;E:\SF\sdk\tools;D:\SF\flutter\flutter\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Users\82017\AppData\Local\Microsoft\WindowsApps;C:\Users\82017\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.18.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (C:\Users\82017\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:136216:13)
+      at Interface.emit (events.js:315:20)
+      at Interface._ttyWrite (readline.js:868:16)
+      at ReadStream.onkeypress (readline.js:205:10)
+      at ReadStream.emit (events.js:315:20)
+      at emitKeys (internal/readline/utils.js:335:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1137:36)
+      at ReadStream.emit (events.js:315:20)
+      at addChunk (_stream_readable.js:295:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
